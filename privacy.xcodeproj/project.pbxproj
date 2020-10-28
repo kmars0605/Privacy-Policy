@@ -15,7 +15,7 @@
 		21D21385254973E600BF72A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D21383254973E600BF72A1 /* LaunchScreen.storyboard */; };
 		21D21390254973E700BF72A1 /* privacyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2138F254973E700BF72A1 /* privacyTests.swift */; };
 		21D2139B254973E700BF72A1 /* privacyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2139A254973E700BF72A1 /* privacyUITests.swift */; };
-		21D213AC2549749400BF72A1 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 21D213AB2549749400BF72A1 /* privacy.html */; };
+		21D213F625498EE900BF72A1 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 21D213F525498EE900BF72A1 /* privacy.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		21D21396254973E700BF72A1 /* privacyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = privacyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D2139A254973E700BF72A1 /* privacyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privacyUITests.swift; sourceTree = "<group>"; };
 		21D2139C254973E700BF72A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21D213AB2549749400BF72A1 /* privacy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		21D213F525498EE900BF72A1 /* privacy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				21D2137E254973E200BF72A1 /* Main.storyboard */,
 				21D21381254973E600BF72A1 /* Assets.xcassets */,
 				21D21383254973E600BF72A1 /* LaunchScreen.storyboard */,
-				21D213AB2549749400BF72A1 /* privacy.html */,
+				21D213F425498EE900BF72A1 /* pravacy.docs */,
 				21D21386254973E600BF72A1 /* Info.plist */,
 			);
 			path = privacy;
@@ -129,6 +129,14 @@
 				21D2139C254973E700BF72A1 /* Info.plist */,
 			);
 			path = privacyUITests;
+			sourceTree = "<group>";
+		};
+		21D213F425498EE900BF72A1 /* pravacy.docs */ = {
+			isa = PBXGroup;
+			children = (
+				21D213F525498EE900BF72A1 /* privacy.html */,
+			);
+			path = pravacy.docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D213F625498EE900BF72A1 /* privacy.html in Resources */,
 				21D21385254973E600BF72A1 /* LaunchScreen.storyboard in Resources */,
-				21D213AC2549749400BF72A1 /* privacy.html in Resources */,
 				21D21382254973E600BF72A1 /* Assets.xcassets in Resources */,
 				21D21380254973E200BF72A1 /* Main.storyboard in Resources */,
 			);
